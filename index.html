@@ -5,84 +5,120 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Essenza</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- Tailwind compilado -->
+  <link rel="stylesheet" href="dist/output.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Scrollbar custom -->
+  <style>
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
 
-<body>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col font-sans">
+
+  <!-- Header -->
   <div id="header"></div>
-  <main class="container py-5 text-white">
-    <!-- Carrusel de marcas -->
-    <div class="marcas-carousel d-flex mb-5" style="overflow-x:auto; overflow-y:hidden;">
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-avon.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/avon_banner.jpg" alt="Avon" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>Avon</h3>
-          <p class="small">Belleza para todos los días</p>
+
+  <main class="flex-grow w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-16">
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-gray-800 to-gray-700 text-center py-16 rounded-lg shadow-xl" data-aos="zoom-in">
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Bienvenido a Essenza</h1>
+      <p class="text-lg text-gray-300">Explora productos únicos para tu belleza y bienestar</p>
+      <a href="#productos" class="mt-6 inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition">Ver Promociones</a>
+    </section>
+
+    <!-- Carrusel de marcas con fade -->
+   <!-- Carrusel de marcas con fade -->
+<section>
+  <h2 class="text-3xl font-bold mb-6 text-center">Marcas destacadas</h2>
+  <div class="relative overflow-hidden">
+    <div id="marcas-carousel" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 transition-all duration-700 ease-in-out">
+      <!-- Cada tarjeta se insertará por JS con esta estructura -->
+      <!-- Estructura de ejemplo si quieres probar manualmente: -->
+      <!--
+      <div class="group relative rounded overflow-hidden shadow-lg">
+        <img src="img/marcas/avon_banner.jpg" alt="Avon" class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 p-4">
+          <h3 class="text-xl font-bold">Avon</h3>
+          <p class="text-sm text-gray-300">Belleza para todos los días</p>
         </div>
       </div>
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-natura.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/natura_banner.jgp.jpg" alt="Natura" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>Natura</h3>
-          <p class="small">Cuidado natural y responsable</p>
-        </div>
-      </div>
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-cyzone.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/cyzone_banner.jpg" alt="Cyzone" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>Cyzone</h3>
-          <p class="small">Tendencias que inspiran</p>
-        </div>
-      </div>
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-esika.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/esika_banner.jpg" alt="Ésika" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>Ésika</h3>
-          <p class="small">Tu estilo, tu esencia</p>
-        </div>
-      </div>
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-lbel.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/lbel_banner.jpg" alt="L’Bel" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>L’Bel</h3>
-          <p class="small">Elegancia que enamora</p>
-        </div>
-      </div>
-      <div class="banner-item position-relative mx-3" onclick="location.href='productos-leonisa.html'"
-        style="cursor:pointer;">
-        <img src="img/marcas/leonisa_banner.jpg" alt="Leonisa" class="banner-img" />
-        <div class="banner-text position-absolute bottom-0 start-0 p-3">
-          <h3>Leonisa</h3>
-          <p class="small">Confianza y estilo</p>
-        </div>
-      </div>
+      -->
     </div>
+  </div>
+</section>
 
 
-    <h2 class="mb-4 text-center">Promociones</h2>
-    <div class="position-relative">
-      <div id="productos-carousel" class="d-flex overflow-hidden gap-2"></div>
+    <!-- Productos Estrella con diseño alternado -->
+    <section class="space-y-20">
+      <h2 class="text-3xl font-bold mb-6 text-center">Productos Estrella</h2>
+      <div class="flex flex-col md:flex-row items-center gap-8" data-aos="fade-right">
+        <img src="img/productos/estrella1.jpg" alt="Producto estrella 1" class="w-full md:w-1/2 h-72 object-cover rounded-lg shadow-lg">
+        <div class="text-left md:w-1/2">
+          <h3 class="text-2xl font-semibold mb-2">Perfume Elegance</h3>
+          <p class="text-gray-300 mb-4">Un aroma inolvidable que combina elegancia y frescura. Ideal para cualquier ocasión.</p>
+          <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Comprar ahora</a>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row-reverse items-center gap-8" data-aos="fade-left">
+        <img src="img/productos/estrella2.jpg" alt="Producto estrella 2" class="w-full md:w-1/2 h-72 object-cover rounded-lg shadow-lg">
+        <div class="text-left md:w-1/2">
+          <h3 class="text-2xl font-semibold mb-2">Set de Belleza Natura</h3>
+          <p class="text-gray-300 mb-4">Incluye crema, perfume y labial de alta calidad. Una opción perfecta para regalar o consentirte.</p>
+          <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Comprar ahora</a>
+        </div>
+      </div>
+    </section>
 
-      <!-- Flechas -->
-      <button id="prev-btn" class="carousel-btn start-0">&lt;</button>
-      <button id="next-btn" class="carousel-btn end-0">&gt;</button>
-    </div>
+    <!-- Carrusel promociones -->
+    <section id="productos">
+      <h2 class="text-3xl font-bold mb-6 text-center">Promociones</h2>
+      <div class="relative">
+        <div id="productos-carousel" class="flex overflow-x-auto scrollbar-hide space-x-4 scroll-smooth px-4 py-2">
+          <!-- Productos se inyectan aquí desde JS -->
+        </div>
+
+        <!-- Botones -->
+        <button id="prev-btn" aria-label="Anterior" class="absolute top-1/2 left-0 -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-90 text-white p-2 rounded-r shadow-md z-10">
+          &#8249;
+        </button>
+        <button id="next-btn" aria-label="Siguiente" class="absolute top-1/2 right-0 -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-90 text-white p-2 rounded-l shadow-md z-10">
+          &#8250;
+        </button>
+      </div>
+    </section>
+
+    <!-- Llamado final -->
+    <section class="bg-gray-800 py-12 rounded-lg text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-4">¿Listo para mejorar tu rutina de belleza?</h2>
+      <p class="text-gray-300 mb-6">Explora nuestras marcas y productos destacados con solo un clic.</p>
+      <a href="#" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition">Comenzar ahora</a>
+    </section>
+
   </main>
 
+  <!-- Footer -->
   <div id="footer"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
   <script src="js/include-header-footer.js"></script>
-  <script src="js/cargar-productos-carousel.js"></script>
-  <script src="js/carrusel.js"></script>
-  <script>cargarProductos('data/promociones.json');</script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/marcas-carousel.js"></script>
+  <script src="js/cargar-productos-carousel-tailwind.js"></script>
+  <script>
+    cargarProductos('data/promociones.json');
+  </script>
 </body>
 
 </html>
