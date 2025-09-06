@@ -5,7 +5,8 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": true
   },
   {
     "nombre": "Producto de prueba",
@@ -13,7 +14,8 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": true
   },
   {
     "nombre": "Producto de prueba",
@@ -21,7 +23,8 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": true
   },
   {
     "nombre": "Producto de prueba",
@@ -29,7 +32,8 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": false
   },
   {
     "nombre": "Producto de prueba",
@@ -37,7 +41,8 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": false
   },
   {
     "nombre": "Producto de prueba",
@@ -45,6 +50,7 @@
     "precio": "19990",
     "imagen": "img/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa este producto.",
+    "visible": false
   }
 ]

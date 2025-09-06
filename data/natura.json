@@ -1,82 +1,38 @@
 [
   {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
+    "nombre": "Natura Ekos Castaña",
+    "descripcion": "Hidratación intensa para piel seca.",
+    "precio": "14990",
+    "imagen": "img/natura/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa Natura Ekos Castaña.",
+    "visible": true
   },
   {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
+    "nombre": "Natura Humor",
+    "descripcion": "Fragancia fresca y juvenil.",
     "precio": "19990",
-    "imagen": "img/test.jpg",
+    "imagen": "img/natura/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa Natura Humor.",
+    "visible": true
   },
   {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
+    "nombre": "Natura Chronos",
+    "descripcion": "Cuidado facial anti-edad.",
+    "precio": "25990",
+    "imagen": "img/natura/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa Natura Chronos.",
+    "visible": true
   },
   {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
+    "nombre": "Natura Chronos",
+    "descripcion": "Cuidado facial anti-edad.",
+    "precio": "25990",
+    "imagen": "img/natura/test.jpg",
     "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto."
+    "mensajeWhatsapp": "Hola, me interesa Natura Chronos.",
+    "visible": true
   }
 ]

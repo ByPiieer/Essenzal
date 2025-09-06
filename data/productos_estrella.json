@@ -1,0 +1,27 @@
+[
+  {
+    "visible": true,
+    "titulo": "Perfume Elegance",
+    "descripcion": "Un aroma inolvidable que combina elegancia y frescura. Ideal para cualquier ocasión.",
+    "imagen": "img/productos/estrella1.jpg",
+    "cta": "Comprar ahora",
+    "url": "#"
+  },
+  {
+    "visible": true,
+    "titulo": "Set de Belleza Natura",
+    "descripcion": "Incluye crema, perfume y labial de alta calidad. Una opción perfecta para regalar o consentirte.",
+    "imagen": "img/productos/estrella2.jpg",
+    "cta": "Comprar ahora",
+    "url": "#"
+  },
+  {
+    "visible": true,
+    "titulo": "Pack You Ésika",
+    "descripcion": "Fragancias icónicas con toques cítricos y florales.",
+    "imagen": "img/productos/estrella1.jpg",
+    "cta": "Pedir por WhatsApp",
+    "whatsapp": "56945509231",
+    "mensajeWhatsapp": "Hola, quiero el Pack You Ésika."
+  }
+]

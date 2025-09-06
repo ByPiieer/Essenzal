@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="dist/output.css" />
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-  <!-- Scrollbar custom -->
+  <!-- Scrollbar custom (opcional mantener) -->
   <style>
     .scrollbar-hide::-webkit-scrollbar {
       display: none;
     }
+
     .scrollbar-hide {
       -ms-overflow-style: none;
       scrollbar-width: none;
@@ -22,87 +23,106 @@
   </style>
 </head>
 
-
-<body class="bg-gray-900 text-white min-h-screen flex flex-col font-sans">
+<body class="min-h-screen flex flex-col font-sans text-brandDark
+         bg-[linear-gradient(135deg,_#ffffff_0%,_#ffffff_50%,_#ffedf3_65%,_#adeed9_75%,_#d6f5ff_85%,_#e0ffe0_95%)]
+         bg-fixed bg-no-repeat">
 
   <!-- Header -->
   <div id="header"></div>
 
-  <main class="flex-grow w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-16">
+  <main class="flex-grow w-full max-w-[1100px] mx-auto px-6 lg:px-8 py-8 space-y-16">
 
-    <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-gray-800 to-gray-700 text-center py-16 rounded-lg shadow-xl" data-aos="zoom-in">
-      <h1 class="text-4xl sm:text-5xl font-bold mb-4">Bienvenido a Essenza</h1>
-      <p class="text-lg text-gray-300">Explora productos únicos para tu belleza y bienestar</p>
-      <a href="#productos" class="mt-6 inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-full transition">Ver Promociones</a>
+    <section class="relative isolate overflow-hidden rounded-2xl shadow-xl text-center
+         bg-transparent min-h-[380px] md:min-h-[460px]" data-aos="zoom-in">
+      <!-- Imagen de fondo -->
+      <img src="img/principales/fondo_inicio_blanco.png" alt="Hero Essenza"
+        class="absolute inset-0 -z-10 w-full h-full object-cover block select-none pointer-events-none" />
+
+      <!-- SIN overlay (si la imagen ya es clara) -->
+      <!-- <div class="absolute inset-0 bg-black/20 -z-0"></div> -->
+
+      <div class="relative z-10 max-w-3xl mx-auto px-4 py-16">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-4">Bienvenido a Essenza</h1>
+        <p class="text-lg text-brandDark/80">Explora productos únicos para tu belleza y bienestar</p>
+        <a href="#productos" class="mt-6 inline-block bg-brandAccent hover:bg-brandAccentHover
+              text-brandDark font-semibold px-6 py-3 rounded-full transition">
+          Ver Promociones
+        </a>
+      </div>
     </section>
 
-    <!-- Carrusel de marcas con fade -->
-   <!-- Carrusel de marcas con fade -->
-<section>
-  <h2 class="text-3xl font-bold mb-6 text-center">Marcas destacadas</h2>
-  <div class="relative overflow-hidden">
-    <div id="marcas-carousel" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 transition-all duration-700 ease-in-out">
-      <!-- Cada tarjeta se insertará por JS con esta estructura -->
-      <!-- Estructura de ejemplo si quieres probar manualmente: -->
-      <!--
-      <div class="group relative rounded overflow-hidden shadow-lg">
-        <img src="img/marcas/avon_banner.jpg" alt="Avon" class="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-105" />
-        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 p-4">
-          <h3 class="text-xl font-bold">Avon</h3>
-          <p class="text-sm text-gray-300">Belleza para todos los días</p>
+
+
+
+    <!-- Marcas destacadas -->
+    <section>
+      <h2 class="text-3xl font-bold mb-6 text-center">
+        Marcas destacadas
+      </h2>
+      <div class="relative overflow-hidden">
+        <div id="marcas-carousel" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6
+                    transition-all duration-700 ease-in-out">
+          <!-- items via JS -->
         </div>
       </div>
-      -->
-    </div>
-  </div>
-</section>
+    </section>
 
-
-    <!-- Productos Estrella con diseño alternado -->
-    <section class="space-y-20">
+    <!-- Productos Estrella (dinámico) -->
+    <section id="destacados" class="space-y-20">
       <h2 class="text-3xl font-bold mb-6 text-center">Productos Estrella</h2>
-      <div class="flex flex-col md:flex-row items-center gap-8" data-aos="fade-right">
-        <img src="img/productos/estrella1.jpg" alt="Producto estrella 1" class="w-full md:w-1/2 h-72 object-cover rounded-lg shadow-lg">
-        <div class="text-left md:w-1/2">
-          <h3 class="text-2xl font-semibold mb-2">Perfume Elegance</h3>
-          <p class="text-gray-300 mb-4">Un aroma inolvidable que combina elegancia y frescura. Ideal para cualquier ocasión.</p>
-          <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Comprar ahora</a>
-        </div>
-      </div>
-      <div class="flex flex-col md:flex-row-reverse items-center gap-8" data-aos="fade-left">
-        <img src="img/productos/estrella2.jpg" alt="Producto estrella 2" class="w-full md:w-1/2 h-72 object-cover rounded-lg shadow-lg">
-        <div class="text-left md:w-1/2">
-          <h3 class="text-2xl font-semibold mb-2">Set de Belleza Natura</h3>
-          <p class="text-gray-300 mb-4">Incluye crema, perfume y labial de alta calidad. Una opción perfecta para regalar o consentirte.</p>
-          <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Comprar ahora</a>
-        </div>
-      </div>
+      <div id="destacados-list" class="space-y-12"></div>
     </section>
 
-    <!-- Carrusel promociones -->
+
+    <!-- Promociones (carrusel) -->
     <section id="productos">
-      <h2 class="text-3xl font-bold mb-6 text-center">Promociones</h2>
-      <div class="relative">
-        <div id="productos-carousel" class="flex overflow-x-auto scrollbar-hide space-x-4 scroll-smooth px-4 py-2">
-          <!-- Productos se inyectan aquí desde JS -->
+      <h2 class="text-3xl font-bold mb-6 text-center">
+        Promociones
+      </h2>
+      <div class="relative bg-white/60 backdrop-blur-sm rounded-2xl p-2 shadow-lg">
+        <div id="productos-carousel" class="flex flex-row flex-nowrap justify-start items-stretch 
+            overflow-x-auto scrollbar-hide gap-4 px-4 py-2">
+          <!-- Productos por JS -->
         </div>
+
 
         <!-- Botones -->
-        <button id="prev-btn" aria-label="Anterior" class="absolute top-1/2 left-0 -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-90 text-white p-2 rounded-r shadow-md z-10">
+        <button id="prev-btn" aria-label="Anterior" class="absolute top-1/2 left-0 -translate-y-1/2
+                   bg-brandDark/60 hover:bg-brandDark text-white p-2
+                   rounded-r shadow-md z-10">
           &#8249;
         </button>
-        <button id="next-btn" aria-label="Siguiente" class="absolute top-1/2 right-0 -translate-y-1/2 bg-gray-800 bg-opacity-60 hover:bg-opacity-90 text-white p-2 rounded-l shadow-md z-10">
+        <button id="next-btn" aria-label="Siguiente" class="absolute top-1/2 right-0 -translate-y-1/2
+                   bg-brandDark/60 hover:bg-brandDark text-white p-2
+                   rounded-l shadow-md z-10">
           &#8250;
         </button>
       </div>
     </section>
 
+
+    <section id="natura" class="mt-16">
+      <h2 class="text-3xl font-bold mb-6 text-center">Natura</h2>
+      <div id="natura-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    <section id="esika" class="mt-16">
+      <h2 class="text-3xl font-bold mb-6 text-center">Esika</h2>
+      <div id="esika-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+
     <!-- Llamado final -->
-    <section class="bg-gray-800 py-12 rounded-lg text-center" data-aos="fade-up">
-      <h2 class="text-3xl font-bold mb-4">¿Listo para mejorar tu rutina de belleza?</h2>
-      <p class="text-gray-300 mb-6">Explora nuestras marcas y productos destacados con solo un clic.</p>
-      <a href="#" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-semibold transition">Comenzar ahora</a>
+    <section class="py-12 rounded-2xl text-center shadow-xl
+                    bg-gradient-to-r from-brandPinkLight via-brandPurple to-brandAccent" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-4 text-brandDark">
+        ¿Listo para mejorar tu rutina de belleza?
+      </h2>
+      <p class="text-brandDark/80 mb-6">
+        Explora nuestras marcas y productos destacados con solo un clic.
+      </p>
+      <a href="#" class="bg-white/80 hover:bg-white text-brandDark px-6 py-3 rounded-full
+                font-semibold transition">
+        Comenzar ahora
+      </a>
     </section>
 
   </main>
@@ -116,8 +136,18 @@
   <script src="js/include-header-footer.js"></script>
   <script src="js/marcas-carousel.js"></script>
   <script src="js/cargar-productos-carousel-tailwind.js"></script>
+  <script src="js/cargar_natura.js"></script>
+  <script src="js/cargar_esika.js"></script>
+  <script src="js/cargar_estrella.js"></script>
+
   <script>
     cargarProductos('data/promociones.json');
+    cargarNatura('data/natura.json', { showSection: true, respectItemVisibility: true });
+    cargarEsika('data/esika.json', { showSection: true, respectItemVisibility: true });
+    cargarEstrellas('data/productos_estrella.json', {
+      showSection: false,
+      respectItemVisibility: true
+    });
   </script>
 </body>
 

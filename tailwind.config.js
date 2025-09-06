@@ -18,9 +18,11 @@ module.exports = {
         brandGold: '#C5A880',
         brandPinkLight: '#FFEDF3',
         brandPinkHover: '#e6cdd7',
+        brandRosse: '#f077a7ff',
 
       },
     },
   },
   plugins: [],
 };
+
