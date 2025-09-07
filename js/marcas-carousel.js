@@ -1,9 +1,9 @@
 const marcas = [
-  { img: 'img/marcas/avon_banner.jpg',   alt: 'Avon',    url: 'productos-avon.html',   visible: false },
+  { img: 'img/marcas/avon_banner.jpg',   alt: 'Avon',    url: '#avon',   visible: true },
   { img: 'img/marcas/natura_banner.jpg', alt: 'Natura',  url: '#natura',               visible: true  },
-  { img: 'img/marcas/cyzone_banner.jpg', alt: 'Cyzone',  url: 'productos-cyzone.html', visible: false },
+  { img: 'img/marcas/cyzone_banner.jpg', alt: 'Cyzone',  url: '#cyzone', visible: true },
   { img: 'img/marcas/esika_banner.jpg',  alt: 'Ésika',   url: '#esika',                visible: true  },
-  { img: 'img/marcas/lbel_banner.jpg',   alt: 'L’Bel',   url: 'productos-lbel.html',   visible: false },
+  { img: 'img/marcas/lbel_banner.jpg',   alt: 'L’Bel',   url: '#lbel',   visible: true },
   { img: 'img/marcas/leonisa_banner.jpg',alt: 'Leonisa', url: 'productos-leonisa.html',visible: false }
 ];
 let currentSlide = 0;

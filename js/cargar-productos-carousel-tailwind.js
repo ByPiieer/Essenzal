@@ -1,6 +1,6 @@
 function cargarProductos(jsonUrl, options = {}) {
   const {
-    showSection = true,            // Mostrar / ocultar toda la sección
+    showSection = false,            // Mostrar / ocultar toda la sección
     respectItemVisibility = true   // true: usa "visible"; false: ignora "visible"
   } = options;
 

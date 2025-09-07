@@ -32,24 +32,29 @@
 
   <main class="flex-grow w-full max-w-[1100px] mx-auto px-6 lg:px-8 py-8 space-y-16">
 
-    <section class="relative isolate overflow-hidden rounded-2xl shadow-xl text-center
+    <section class="relative isolate overflow-hidden rounded-2xl shadow-xl text-center 
          bg-transparent min-h-[380px] md:min-h-[460px]" data-aos="zoom-in">
-      <!-- Imagen de fondo -->
-      <img src="img/principales/fondo_inicio_blanco.png" alt="Hero Essenza"
-        class="absolute inset-0 -z-10 w-full h-full object-cover block select-none pointer-events-none" />
+  <!-- Imagen de fondo -->
+  <img src="img/principales/fondo_inicio_blanco.png" alt="Essenza"
+    class="absolute inset-0 -z-10 w-full h-full object-cover block select-none pointer-events-none" />
 
-      <!-- SIN overlay (si la imagen ya es clara) -->
-      <!-- <div class="absolute inset-0 bg-black/20 -z-0"></div> -->
+  <!-- Contenido -->
+  <div class="relative z-10 max-w-3xl mx-auto px-6 py-20">
+    <h1 class="text-4xl sm:text-5xl font-serif font-bold text-brandDark mb-4 tracking-wide">
+      Bienvenido a <span class="text-brandAccent">Essenza</span>
+    </h1>
+    <p class="text-lg sm:text-xl text-brandDark/80 leading-relaxed mb-6">
+      Donde la belleza se encuentra con la esencia.  
+      Productos seleccionados con amor, calidad y estilo  
+      para realzar tu bienestar todos los días.
+    </p>
+    <div class="w-24 h-1 bg-gradient-to-r from-brandAccent via-brandPinkLight to-brandAccent mx-auto rounded-full mb-6"></div>
+    <p class="text-md sm:text-lg italic text-brandDark/70">
+      “La verdadera belleza nace de sentirte bien contigo mismo”
+    </p>
+  </div>
+</section>
 
-      <div class="relative z-10 max-w-3xl mx-auto px-4 py-16">
-        <h1 class="text-4xl sm:text-5xl font-bold mb-4">Bienvenido a Essenza</h1>
-        <p class="text-lg text-brandDark/80">Explora productos únicos para tu belleza y bienestar</p>
-        <a href="#productos" class="mt-6 inline-block bg-brandAccent hover:bg-brandAccentHover
-              text-brandDark font-semibold px-6 py-3 rounded-full transition">
-          Ver Promociones
-        </a>
-      </div>
-    </section>
 
 
 
@@ -109,6 +114,18 @@
       <h2 class="text-3xl font-bold mb-6 text-center">Esika</h2>
       <div id="esika-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
     </section>
+    <section id="lbel" class="mt-16">
+      <h2 class="text-3xl font-bold mb-6 text-center">Lbel</h2>
+      <div id="lbel-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    <section id="avon" class="mt-16">
+      <h2 class="text-3xl font-bold mb-6 text-center">Avon</h2>
+      <div id="avon-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    <section id="cyzone" class="mt-16">
+      <h2 class="text-3xl font-bold mb-6 text-center">Cyzone</h2>
+      <div id="cyzone-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
 
     <!-- Llamado final -->
     <section class="py-12 rounded-2xl text-center shadow-xl
@@ -139,11 +156,18 @@
   <script src="js/cargar_natura.js"></script>
   <script src="js/cargar_esika.js"></script>
   <script src="js/cargar_estrella.js"></script>
+  <script src="js/cargar_avon.js"></script>
+  <script src="js/cargar_lbel.js"></script>
+  <script src="js/cargar_cyzone.js"></script>
 
   <script>
     cargarProductos('data/promociones.json');
     cargarNatura('data/natura.json', { showSection: true, respectItemVisibility: true });
     cargarEsika('data/esika.json', { showSection: true, respectItemVisibility: true });
+    cargarLbel('data/lbel.json', { showSection: true, respectItemVisibility: true });
+    cargarCyzone('data/cyzone.json', { showSection: true, respectItemVisibility: true });
+    cargarAvon('data/avon.json', { showSection: true, respectItemVisibility: true });
+
     cargarEstrellas('data/productos_estrella.json', {
       showSection: false,
       respectItemVisibility: true

@@ -1,30 +1,8 @@
 [
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto.",
-    "visible": true
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto.",
-    "visible": true
-  },
-  {
-    "nombre": "Producto de prueba",
-    "descripcion": "Descripción breve del producto.",
-    "precio": "19990",
-    "imagen": "img/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa este producto.",
-    "visible": false
-  }
+  { "codigo": "CE0001",  "marca": "Esika", "nombre": "Producto CE0001",  "descripcion": "Esika", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/esika/CE0001.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CE0002",  "marca": "Esika", "nombre": "Producto CE0002",  "descripcion": "Esika", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/esika/CE0002.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CE0003",  "marca": "Esika", "nombre": "Producto CE0003",  "descripcion": "Esika", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/esika/CE0003.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CE0004",  "marca": "Esika", "nombre": "Producto CE0004",  "descripcion": "Esika", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/esika/CE0004.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CE0005",  "marca": "Esika", "nombre": "Producto CE0005",  "descripcion": "Esika", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/esika/CE0005.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true }
 
 ]

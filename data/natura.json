@@ -1,38 +1,37 @@
 [
-  {
-    "nombre": "Natura Ekos Castaña",
-    "descripcion": "Hidratación intensa para piel seca.",
-    "precio": "14990",
-    "imagen": "img/natura/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa Natura Ekos Castaña.",
-    "visible": true
-  },
-  {
-    "nombre": "Natura Humor",
-    "descripcion": "Fragancia fresca y juvenil.",
-    "precio": "19990",
-    "imagen": "img/natura/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa Natura Humor.",
-    "visible": true
-  },
-  {
-    "nombre": "Natura Chronos",
-    "descripcion": "Cuidado facial anti-edad.",
-    "precio": "25990",
-    "imagen": "img/natura/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa Natura Chronos.",
-    "visible": true
-  },
-  {
-    "nombre": "Natura Chronos",
-    "descripcion": "Cuidado facial anti-edad.",
-    "precio": "25990",
-    "imagen": "img/natura/test.jpg",
-    "whatsapp": "56945509231",
-    "mensajeWhatsapp": "Hola, me interesa Natura Chronos.",
-    "visible": true
-  }
+  { "codigo": "CN0001",  "marca": "Natura", "nombre": "Producto CN0001",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0001.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0002",  "marca": "Natura", "nombre": "Producto CN0002",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0002.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0003",  "marca": "Natura", "nombre": "Producto CN0003",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0003.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0004",  "marca": "Natura", "nombre": "Producto CN0004",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0004.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0005",  "marca": "Natura", "nombre": "Producto CN0005",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0005.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0006",  "marca": "Natura", "nombre": "Producto CN0006",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0006.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0007",  "marca": "Natura", "nombre": "Producto CN0007",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0007.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0008",  "marca": "Natura", "nombre": "Producto CN0008",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0008.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+
+  { "codigo": "CN0009",  "marca": "Natura", "nombre": "Producto CN0009",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0009.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0010",  "marca": "Natura", "nombre": "Producto CN0010",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0010.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0011",  "marca": "Natura", "nombre": "Producto CN0011",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0011.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0012",  "marca": "Natura", "nombre": "Producto CN0012",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0012.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0013",  "marca": "Natura", "nombre": "Producto CN0013",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0013.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0014",  "marca": "Natura", "nombre": "Producto CN0014",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0014.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0015",  "marca": "Natura", "nombre": "Producto CN0015",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0015.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0016",  "marca": "Natura", "nombre": "Producto CN0016",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0016.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0017",  "marca": "Natura", "nombre": "Producto CN0017",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0017.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0018",  "marca": "Natura", "nombre": "Producto CN0018",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0018.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0019",  "marca": "Natura", "nombre": "Producto CN0019",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0019.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0020",  "marca": "Natura", "nombre": "Producto CN0020",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0020.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0021",  "marca": "Natura", "nombre": "Producto CN0021",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0021.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0022",  "marca": "Natura", "nombre": "Producto CN0022",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0022.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0023",  "marca": "Natura", "nombre": "Producto CN0023",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0023.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0024",  "marca": "Natura", "nombre": "Producto CN0024",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0024.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0025",  "marca": "Natura", "nombre": "Producto CN0025",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0025.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0026",  "marca": "Natura", "nombre": "Producto CN0026",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0026.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0027",  "marca": "Natura", "nombre": "Producto CN0027",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0027.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0028",  "marca": "Natura", "nombre": "Producto CN0028",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0028.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0029",  "marca": "Natura", "nombre": "Producto CN0029",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0029.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0030",  "marca": "Natura", "nombre": "Producto CN0030",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0030.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0031",  "marca": "Natura", "nombre": "Producto CN0031",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0031.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0032",  "marca": "Natura", "nombre": "Producto CN0032",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0032.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0033",  "marca": "Natura", "nombre": "Producto CN0033",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0033.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true },
+  { "codigo": "CN0034",  "marca": "Natura", "nombre": "Producto CN0034",  "descripcion": "Natura", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/natura/CN0034.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true }
 ]

@@ -1,9 +1,9 @@
-function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = true } = {}) {
-  const section = document.getElementById('natura');
-  const grid    = document.getElementById('natura-grid');
+function cargarAvon(jsonUrl, { showSection = true, respectItemVisibility = true } = {}) {
+  const section = document.getElementById('avon');
+  const grid    = document.getElementById('avon-grid');
 
   if (!section || !grid) {
-    console.warn('Falta la sección/grid de Natura');
+    console.warn('Falta la sección/grid de Avon');
     return;
   }
 
@@ -24,7 +24,7 @@ function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = tru
     return tpl
       .replaceAll('{codigo}', item.codigo ?? '')
       .replaceAll('{nombre}', item.nombre ?? '')
-      .replaceAll('{marca}',  item.marca  ?? 'Natura');
+      .replaceAll('{marca}',  item.marca  ?? 'Avon');
   };
 
   fetch(jsonUrl)
@@ -38,7 +38,7 @@ function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = tru
       if (!items.length) {
         grid.innerHTML = `
           <div class="col-span-full text-center text-brandDark/70 py-10">
-            No hay productos de Natura disponibles.
+            No hay productos de Avon disponibles.
           </div>`;
         return;
       }
@@ -48,7 +48,7 @@ function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = tru
         let srcImagen = (p.imagen && p.imagen.trim()) ? p.imagen.trim() : 'img/placeholder.png';
         try {
           // Log útil en dev
-          // console.log('[NATURA] imagen declarada:', srcImagen, '-> abs:', new URL(srcImagen, location.href).href);
+          // console.log('[Avon] imagen declarada:', srcImagen, '-> abs:', new URL(srcImagen, location.href).href);
         } catch (_) {}
 
         // Precio a mostrar
@@ -79,7 +79,7 @@ function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = tru
 
           <div class="p-4 flex flex-col gap-3 flex-1">
             <header class="text-center">
-              ${p.codigo ? `<p class="text-[11px] tracking-wide text-gray-300/70 mb-1 select-none">${p.codigo} · ${p.marca ?? 'Natura'}</p>` : ''}
+              ${p.codigo ? `<p class="text-[11px] tracking-wide text-gray-300/70 mb-1 select-none">${p.codigo} · ${p.marca ?? 'Avon'}</p>` : ''}
               <h3 class="text-white font-semibold text-base sm:text-lg uppercase">
                 ${p.nombre ?? ''}
               </h3>
@@ -107,5 +107,5 @@ function cargarNatura(jsonUrl, { showSection = true, respectItemVisibility = tru
         grid.appendChild(card);
       });
     })
-    .catch(err => console.error('Error Natura:', err));
+    .catch(err => console.error('Error Avon:', err));
 }
