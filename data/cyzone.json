@@ -1,4 +1,4 @@
 [
-  { "codigo": "CC0001",  "marca": "Cyzone", "nombre": "Producto CC0001",  "descripcion": "Cyzone", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/Cyzone/CC0001.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true }
+  { "codigo": "CC0001",  "marca": "Cyzone", "nombre": "Producto CC0001",  "descripcion": "Cyzone", "precio": null, "precioTipo": "consultar", "precioMostrar": "Consultar por WhatsApp", "imagen": "img/cyzone/CC0001.jpg",  "whatsapp": "56945509231", "mensajeTemplate": "Hola, me interesa el producto {codigo} - {nombre} ({marca}). ¿Valor y disponibilidad?", "visible": true }
 
 ]
